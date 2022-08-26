@@ -1,0 +1,45 @@
+.card{
+    color: white;
+    /* background: #393159; */
+    background: #d8223b;
+}
+
+.cardshadow:hover{   
+    box-shadow: 5px 3px 20px whitesmoke;
+    transition: 0.7s;
+}
+
+#card-web{
+    height: 318px;
+    
+}
+
+#proyectos{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px 20px 3px 20px ;
+}
+
+div div p{
+    color:white;
+}
+
+.m-1{
+    color: white;
+}
+a img{
+    width: 1.5em;
+    height: 1.5em;
+    align-items: center;
+}
+
+div div div div a:hover{
+    background: white;
+    width: 100px;
+}
+
+.proyect{
+    background: rgb(48,42,76);
+    background: linear-gradient(180deg, rgba(48,42,76,1) 0%, rgba(34,29,57,1) 55%, rgba(25,22,38,1) 100%);
+    background-size: cover;
+    background-position: fixed;
+}

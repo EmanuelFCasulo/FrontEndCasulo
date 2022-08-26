@@ -1,0 +1,43 @@
+<section class="vh-100 gradient-custom" id="gral">
+    <div class="container">
+        <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+            <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                        <div class="card bg-dark opacity-75 text-white" style="border-radius: 1rem;" id="card1">
+                            <div class="card-body p-5 text-center">
+                                <div class="mb-md-5 mt-md-4">
+                                    <p class="text-white mb-5 fs-2"><strong>👷‍♂️ Editar datos laborales 👷‍♀️</strong>
+                                    </p>
+                                    <div class="form-group mb-3">
+                                        <label for="nombreE"><strong>Nombre de la empresa</strong></label>
+                                        <input type="text" class="form-control text-center mt-2 fs-5" id="nombreE"
+                                            name="nombreE" [(ngModel)]="expLab.nombreE" required>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="descripcionE"><strong>Descripción de la tarea</strong></label>
+                                        <input type="text" class="form-control text-center mt-2 fs-5" id="descripcionE"
+                                            name="descripcionE" [(ngModel)]="expLab.descripcionE" required>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="puestoE"><strong>Nombre del puesto</strong></label>
+                                        <input type="text mb-3" class="form-control text-center mt-2 fs-5" id="puestoE"
+                                            name="puestoE" [(ngModel)]="expLab.puestoE" required>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="periodoE"><strong>Periodo</strong></label>
+                                        <input type="text" class="form-control text-center mt-2 fs-5" id="periodoE"
+                                            name="periodoE" [(ngModel)]="expLab.periodoE" required>
+                                    </div>
+                                    <button class="btn btn-success mt-5 p-3 text-uppercase ">
+                                        <i class="bi bi-pencil-square"></i><strong> Guardar</strong>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

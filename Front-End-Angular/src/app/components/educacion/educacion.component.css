@@ -1,0 +1,81 @@
+
+/*--------------------------------------------------------------
+# My Resume
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# EXPERIENCIA LABORAL
+--------------------------------------------------------------*/
+.resume{
+    /* background: rgb(25,20,42);
+    background: linear-gradient(180deg, rgba(25,20,42,1) 0%, rgba(25,20,42,0.9472163865546218) 38%, rgba(25,20,42,0.969625350140056) 61%, rgba(25,20,42,1) 100%); */
+    background-image: url(../../../assets/backgroud.png);
+    background-position: center;
+    background-attachment: fixed;
+    height: 868px;
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #82909c;
+    position: relative;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffb727;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    color:white;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #82909c;
+}
+p em{
+    color: white;
+}

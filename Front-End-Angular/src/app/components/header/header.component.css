@@ -1,0 +1,10 @@
+div{
+    /*background-color: #394286;*/
+    background-color: black;
+}
+div img{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+}

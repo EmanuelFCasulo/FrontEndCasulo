@@ -1,0 +1,72 @@
+.row
+{
+    padding: 3em;
+    text-align: center;
+}
+#about{
+    padding-bottom: 150px;
+}
+div{
+    /*background-color:#394286;*/
+    background: #19142a;
+    color: white;
+}
+
+span p{
+    font-size: 1.3em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+}
+
+/* estilo del nombre*/
+#nombre #cargo
+{
+    font-weight: bold;
+    text-align: right;
+}
+#acerca-de-mi{
+    margin-top: 50px;
+}
+.card-body{
+    background: #393159;
+    font-size: 18px;
+}
+
+.card-header{
+    background: #d8223b;
+    font-size: 20px;
+}
+
+/*estilo de la foto de perfil*/
+
+@media (min-width: 575px)
+{
+    #fotoperfil{
+        position: absolute;
+        width: 14%;
+        border-radius: 100%;
+        left: 43%;
+        top: 52%;
+    }
+}
+@media (max-width: 575px)
+{
+    #fotoperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        left: 36%;
+        top: 15%;
+    }
+
+    h3{
+        margin-top: 60px;
+    }
+
+    span h3{
+        margin-top: 1em;
+    }
+}
+    
+

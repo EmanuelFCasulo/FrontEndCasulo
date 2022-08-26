@@ -1,0 +1,53 @@
+<body  id="barra-nav">
+    <!-- Inicio del menu -->
+    <nav class="navbar navbar-expand-md navbar-dark  fixed-top " style="padding: 0px;" id="navegador">
+        <div class="container-fluid">
+            <!-- icono o nombre -->
+            <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">
+                <img id="logoAP" src="./../../assets/APLogo.png" alt="LogoAP">
+            </a>
+            <!-- boton del menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- elementos del menu colapsable -->
+            <div class="collapse navbar-collapse m-2" id="menu">
+                <ul class="navbar-nav ms-auto d-flex" id="item-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#acerca">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#resume">Estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-danger d-none d-md-inline-block  bi bi-box-arrow-in-right"
+                        (click)="login()" *ngIf="!isLogged" type="button"><strong> Login</strong>
+                    </button>
+                    <button class="btn btn-outline-danger d-none d-md-inline-block  bi bi-box-arrow-in-left"
+                        (click)="onLogOut()" *ngIf="isLogged" type="button">Logout
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>

@@ -1,0 +1,31 @@
+<section id="resume" class="resume">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
+                <h2 class="resume-title" *ngIf="!isLogged">Educación</h2>
+                <button type="button" class="btn" routerLink="/nuevaedu" *ngIf="isLogged">
+                    <h2 class="resume-title">Educación <i class="bi bi-plus-circle-fill p-3" style="color:white ;"></i></h2>
+                </button>
+                <div class="resume-item" *ngFor="let Educacion of educacion">
+                    <h4>{{Educacion.institucionE}}</h4>
+                    <h5>{{Educacion.periodoE}}</h5>
+                    <p><em>{{Educacion.nombreE}}</em></p>
+                    <ul>
+                        <li>{{Educacion.descripcionE}}
+                        </li>
+                    </ul>
+                    <div *ngIf="isLogged">
+                        <button class="btn btn-light m-1 p-1" routerLink="/editedu/{{Educacion.id}}">
+                            <i class="bi bi-pencil-fill"></i></button>
+                        <button class="btn btn-danger m-1 p-1" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

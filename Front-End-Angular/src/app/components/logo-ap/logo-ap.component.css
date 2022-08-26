@@ -1,0 +1,32 @@
+#logoAP
+{
+    width: 100px;
+    margin-left: 20px;
+}
+
+#navegador{
+    z-index: 1;
+}
+
+div ul li a:hover{
+    background: #d8223b;
+    color: white;
+    box-shadow: 5px 3px 20px black;
+    border-radius: 6px;
+    transition: 0.7s;
+    font-size: 16.5px;
+}
+
+#item-nav{
+    padding-right: 30px;
+}
+
+.nav-item{
+    margin-right: 15px;
+    /*font-family: 'IBM Plex Mono', monospace;*/
+}
+
+@media (max-width: 575px)
+{
+    
+}
